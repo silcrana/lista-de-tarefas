@@ -4,10 +4,9 @@
       <!-- Hero head: will stick at the top -->
       <div class="hero-head">
         <nav class="navbar">
-          <div class="container">
+          <div class="container has-text-centered">
             <div class="navbar-title">
                 <h1><strong>Crie sua lista de tarefas do dia.</strong></h1>
-
             </div>
           </div>
         </nav>

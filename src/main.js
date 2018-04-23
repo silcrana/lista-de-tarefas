@@ -1,5 +1,7 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import App from './App.vue';
+import 'font-awesome/css/font-awesome.css';
+import 'bulma/css/bulma.css';
 
 new Vue({
   el: '#app',
