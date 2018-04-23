@@ -11,7 +11,7 @@
           </p>
           <p class="control is-expanded" :class="{'checked': tarefa.checked}">{{tarefa.description}}</p>
           <p class="control">
-            <a class="button is-danger is-small" @click="remover(index)">
+            <a class="button is-danger is-small" title="Remover" @click="remover(index)">
               <span class="icon is-small">
                 <i class="fa fa-trash"></i>
               </span>
@@ -48,9 +48,6 @@ export default {
   border-radius: 50%;
 }
 
-a.button.is-rounded.is-small.check-button{
-
-}
 .checked {
   text-decoration: line-through;
 }
